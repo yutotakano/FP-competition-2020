@@ -1,5 +1,0 @@
-dist-newstyle
-*.o
-*.hi
-Main
-output/*

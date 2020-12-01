@@ -1,3 +1,0 @@
-with-compiler: ghc
-allow-newer: all
-packages: mandelbulb.cabal
