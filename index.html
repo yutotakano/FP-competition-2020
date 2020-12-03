@@ -9,22 +9,24 @@
 
     <title>INF1A-FP Programming Competition 2020</title>
 
-    <link rel="stylesheet" type="text/css" media="screen, projection, print"
-        href="slidy.css"/> 
-    <script src="slidy.js" 
-        charset="utf-8" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" media="screen, projection, print" href="slidy.css"/> 
+    <script src="slidy.js" charset="utf-8" type="text/javascript"></script>
 
     <style>
-        div.slide.page {
+        div.slide {
             background: transparent;
             text-align: center;
         }
-
+        #prizes {
+            text-align: left;
+        }
+        #prizes h1 {
+            text-align: center;
+        }
         img, video {
             max-height: 720px;
             max-width: 1280px;
         }
-
         iframe {
             height: 720px;
             width: 1280px;
@@ -35,12 +37,10 @@
             height: 75%;
             width: 75%;
         }
-
         .sm {
             height: 50%;
             width: 50%;
         }
-
         .vsm {
             height: 25%;
             width: 25%;
@@ -53,55 +53,69 @@
     <!-- TITLE -->
 
     <div class="slide titlepage">
-        <h1 class="title">Programming Competition 20209</h1>
+        <h1 class="title">Programming Competition 2020</h1>
         <p class="author">INF1A-FP</p>
         <p class="date">November 2020</p>
         <p>Sponsored by <a href="https://galois.com">Galois</a></p>
     </div>
 
     <div id="participation" class="slide page">
-        <h1>Participation</h1>
+        <h1 class="title">Participation</h1>
         <p>14 entries by 16 students</p>
         <p>Get the code <a href="https://github.com/UoE-Inf1A-2020/FP-competition-2020" target="_blank">here</a></p>
-    </div>
 
+    </div>
+    <div id="prizes" class="slide page">
+        <h1> Prizes </h1>
+        <h2> First prize (£50/ea) </h2>
+        <ul>
+            <li> Yotu Takano - Ray Tracer</li>
+        </ul>
+        <h2> Second prize (£25/ea) </h2>
+        <ul>
+            <li> Adam Calvert - Mandelbulb </li>
+            <li> Bence Szilagi - 3d Graphics </li>
+        </ul>
+        <h2> Third prize (£10/ea) </h2>
+        <ul>
+            <li> Jacob Walters - Marboreal </li>
+            <li> Purvi Harwani - Combinatorics in Fractal Geometry </li>
+            <li> Oscar Shrimpton - Greeble </li>
+        </ul>
+        <h2> Fourth position </h2>
+        <ul>
+            <li> Laura O'Sullivan - L-Systems </li>
+            <li> Ksenia Knyspel - Einstein </li>
+            <li> Ian High - Game of Life </li>
+            <li> Shuyuan Zhang, Xuhan Zhang - uInMyEye </li>
+        </ul>
+        <h2> Fifth position </h2>
+        <ul>
+            <li> Aden Haussmann - Fractals </li>
+            <li> Alexander Sorokin - Circle Fractals </li>
+            <li> Amy Yin - Creepyfrac </li>
+            <li> Henry Zhang, Cong Xiong - Picture of Tiger+ </li>
+        </ul>
+    </div>
 
     <!-- ENTRIES -->
 
     <div class="slide page">
-        <h1>Adam Calvert</h1>
+        <h1>Yotu Takano (1<sup>st</sup> prize)</h1>
+        <p>Ray Tracer</p>
+        <video controls="controls">
+            <source src="Yuto-Takano/without-shadow.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <div class="slide page">
+        <h1>Adam Calvert (2<sup>nd</sup> prize)</h1>
         <p>Mandelbulb</p>
         <iframe src="https://www.youtube.com/embed/r8h9KLWCueg" frameborder="0" allowfullscreen></iframe>
     </div>
-
     <div class="slide page">
-        <h1>Aden Haussmann</h1>
-        <p>Fractals</p>
-        <img alt="" src="Aden-Haussmann/all.jpg">
-    </div>
-
-    <div class="slide page">
-        <h1>Alexander Sorokin</h1>
-        <p>Circle Fractals</p>
-        <img alt="" src="Alexander-Sorokin/out1.gif">
-        <img alt="" src="Alexander-Sorokin/out2.gif">
-        <img alt="" src="Alexander-Sorokin/main'.gif">
-        <img alt="" src="Alexander-Sorokin/video.gif">
-    </div>
-
-    <div class="slide page">
-        <h1>Amy Yin</h1>
-        <p>Creepyfrac</p>
-        <img alt="" src="Amy-Yin/outSample.png">
-        <img alt="" src="Amy-Yin/outSample.gif">
-        <img alt="" src="Amy-Yin/outvwSample.png">
-        <img alt="" src="Amy-Yin/outvwSample.gif">
-    </div>
-
-    <div class="slide page">
-        <h1>Bence Szilágyi</h1>
+        <h1>Bence Szilágyi (2<sup>nd</sup> prize)</h1>
         <p>3D Graphics</p>
-        <img class="vsm" alt="" src="Bence-Szilagyi/outSample.png">
         <img class="vsm" alt="" src="Bence-Szilagyi/1-a-simpler-time.png">
         <img class="vsm" alt="" src="Bence-Szilagyi/2-normalising-the-situation.png">
         <img class="vsm" alt="" src="Bence-Szilagyi/3-not-understanding-perspective-projection.png">
@@ -122,35 +136,24 @@
     </div>
 
     <div class="slide page">
-        <h1>Henry-Zhang, Cong-Xiong</h1>
-        <p>Picture of Tiger</p>
-        <img alt="" src="Henry-Zhang,Cong-Xiong/Picture of Tiger.png">
-    </div>
-
-    <div class="slide page">
-        <h1>Iain High</h1>
-        <p>Game of Life</p>
-        <img alt="" src="Iain-High/testGrid1.gif">
-        <img alt="" src="Iain-High/testGrid2.gif">
-        <img alt="" src="Iain-High/testGrid3.gif">
-        <img alt="" src="Iain-High/testGrid4.gif">
-        <img alt="" src="Iain-High/testGrid5.gif">
-    </div>
-
-    <div class="slide page">
-        <h1>Jacob Walters</h1>
+        <h1>Jacob Walters (3<sup>rd</sup> prize)</h1>
         <p>Marboreal</p>
         <img alt="" src="Jacob-Walters/out.png">
     </div>
-
     <div class="slide page">
-        <h1>Ksenia Knyspel</h1>
-        <p>Einstein</p>
-        <iframe src="Ksenia-Knyspel/output.html"></iframe>
+        <h1>Oscar Shrimpton (3<sup>rd</sup> prize)</h1>
+        <p>Greeble</p>
+        <img alt="" src="Oscar-Shrimpton/greeble.gif">
+    </div>
+    <div class="slide page">
+        <h1>Purvi Harwani (3<sup>rd</sup> prize)</h1>
+        <p>Combinatorics in Fractal geometry</p>
+        <!-- <iframe src="Purvi-Harwani/index.html"></iframe> -->
+        <img alt="" src="Purvi-Harwani/index.png">
     </div>
 
     <div class="slide page">
-        <h1>Laura O'Sullivan</h1>
+        <h1>Laura O'Sullivan (4<sup>th</sup> position)</h1>
         <p>L-Systems</p>
         <iframe src="Laura-O'Sullivan/mandala.html"></iframe>
         <iframe src="Laura-O'Sullivan/circle.html"></iframe>
@@ -161,31 +164,51 @@
         <iframe src="Laura-O'Sullivan/swirl.html"></iframe>
         <iframe src="Laura-O'Sullivan/crosses.html"></iframe>
     </div>
-
     <div class="slide page">
-        <h1>Oscar Shrimpton</h1>
-        <p>Greeble</p>
-        <img alt="" src="Oscar-Shrimpton/greeble.gif">
+        <h1>Ksenia Knyspel (4<sup>th</sup> position)</h1>
+        <p>Einstein</p>
+        <iframe src="Ksenia-Knyspel/output.html"></iframe>
     </div>
-
     <div class="slide page">
-        <h1>Purvi Harwani</h1>
-        <p>Combinatorics in Fractal geometry</p>
-        <iframe src="Purvi-Harwani/index.html"></iframe>
+        <h1>Iain High (4<sup>th</sup> position)</h1>
+        <p>Game of Life</p>
+        <img alt="" src="Iain-High/testGrid1.gif">
+        <img alt="" src="Iain-High/testGrid2.gif">
+        <img alt="" src="Iain-High/testGrid3.gif">
+        <img alt="" src="Iain-High/testGrid4.gif">
+        <img alt="" src="Iain-High/testGrid5.gif">
     </div>
-
     <div class="slide page">
-        <h1>Shuyuan-Zhang, Xuhan-Zhang</h1>
+        <h1>Shuyuan-Zhang, Xuhan-Zhang (4<sup>th</sup> position)</h1>
         <p>uInMyEye</p>
         <img alt="" src="Shuyuan-Zhang,Xuhan-Zhang/uInMyEye7.png">
     </div>
 
     <div class="slide page">
-        <h1>Yotu Takano</h1>
-        <p>Ray Tracer</p>
-        <video controls="controls">
-            <source src="Yuto-Takano/without-shadow.mp4" type="video/mp4">
-        </video>
+        <h1>Aden Haussmann (5<sup>th</sup> position)</h1>
+        <p>Fractals</p>
+        <img alt="" src="Aden-Haussmann/all.jpg">
+    </div>
+    <div class="slide page">
+        <h1>Alexander Sorokin (5<sup>th</sup> position)</h1>
+        <p>Circle Fractals</p>
+        <img alt="" src="Alexander-Sorokin/out1.gif">
+        <img alt="" src="Alexander-Sorokin/out2.gif">
+        <img alt="" src="Alexander-Sorokin/main'.gif">
+        <img alt="" src="Alexander-Sorokin/video.gif">
+    </div>
+    <div class="slide page">
+        <h1>Amy Yin (5<sup>th</sup> position)</h1>
+        <p>Creepyfrac</p>
+        <img alt="" src="Amy-Yin/outSample.png">
+        <img alt="" src="Amy-Yin/outSample.gif">
+        <img alt="" src="Amy-Yin/outvwSample.png">
+        <img alt="" src="Amy-Yin/outvwSample.gif">
+    </div>
+    <div class="slide page">
+        <h1>Henry-Zhang, Cong-Xiong (5<sup>th</sup> position)</h1>
+        <p>Picture of Tiger</p>
+        <img alt="" src="Henry-Zhang,Cong-Xiong/Picture of Tiger.png">
     </div>
 
 </body>
